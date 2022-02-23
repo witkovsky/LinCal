@@ -14,7 +14,7 @@ About
 
 The Linear Calibration Toolbox (LinCal) consists of a set of algorithms (LinearCalibration.m) and example data (Simulations.m) for linear comparative calibration as presented in the working paper Palenčár et al. 2022. 
 
-Moreover, ``PolyCal`` is an algorithm suggested for fitting a polynomial calibration and for computing the exact coverage intervals (if used with cf2DistGP algorithm of the package CharFunTool).
+Moreover, `PolyCal` is an algorithm suggested for fitting a polynomial calibration and for computing the exact coverage intervals (if used with `cf2DistGP` algorithm of the package `CharFunTool`).
 
 Installation and requirements
 =============================
