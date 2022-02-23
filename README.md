@@ -12,9 +12,9 @@ For current status of the MATLAB toolbox see the CharFunTool development availab
 About
 =====
 
-The Linear Calibration Toolbox (LinCal) consists of a set of algorithms (LinearCalibration.m) and example data (Simulations.m) for linear comparative calibration as presented in the working paper Palenčár et al. 2022. 
+The Linear Calibration Toolbox (LinCal) consists of a set of algorithms (`LinearCalibration`) and example data (`Simulations`) for linear comparative calibration as presented in the working paper Palenčár et al. 2022. 
 
-Moreover, `PolyCal` is an algorithm suggested for fitting a polynomial calibration and for computing the exact coverage intervals (if used with `cf2DistGP` algorithm of the package `CharFunTool`).
+Moreover, `LinearCalibration2` and `PolyCal` are alternative algorithms suggested for fitting a linear and  polynomial calibration and for computing the exact coverage intervals (if used with `cf2DistGP` algorithm of the package `CharFunTool`).
 
 Installation and requirements
 =============================
