@@ -1,5 +1,5 @@
 # LinCal
-LinCal: Linear Calibration
+LinCal: Linear Calibration Tools
 
 MATLAB files and supplementary material to the working paper:
 
