@@ -46,7 +46,6 @@ We recommend taking a look at the Simulations file and the detailed helps of the
 
 * To get a taste of what computing with LinCal is like, try simple example,
 ```
-% EXAMPLE 1
    x   = [1.2 1.9 2.9 4.0 4.7 5.9]';
    ux  = [0.2 0.2 0.2 0.2 0.2 0.2]';
    y   = [3.4 4.4 7.2 8.5 10.8 13.5]'; 
@@ -54,12 +53,6 @@ We recommend taking a look at the Simulations file and the detailed helps of the
    y0  = [9 11];
    uy0 = [0.4 0.4];
    [ab,Uab,x0a,ux0a] = LinearCalibration(x,y,ux,uy,[],y0,uy0);
- 
- % EXAMPLE 2
-   y0  = [9 11];
-   uy0 = [0.4 0.4];
-   options.isReversePrediction = false; 
-   [b,Vb,x0b,ux0b] = LinearCalibration(y,x,uy,ux,[],y0,uy0,options); 
 ```
 
 License
